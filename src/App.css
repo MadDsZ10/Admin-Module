@@ -1,0 +1,20 @@
+App {
+  background-color: blue;
+}
+.LandingPage {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.Illustration1 {
+  height: 40vh;
+}
+.page-text-container {
+  display: flex;
+  justify-content: center;
+}
+.Text-warp {
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+.dashboard-container h2 {
+  background-color: gray;
+  text-align: center;
+  padding: 5px;
+}
+
+.dashboard-content {
+  display: flex;
+}
+
+.Dashboard-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Dashboard-text h1 {
+  font-size: 40px;
+  margin-top: 10px 0;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.Dashboard-text p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.dashboard-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 10px;
+  overflow: hidden;
+  margin-top: 30px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.7);
+  transition: 0.2s;
+}
+.Dashboard-view {
+  box-shadow: 1px -2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.Dashboard-view:hover {
+  background-color: aqua;
+}
